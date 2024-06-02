@@ -1,16 +1,37 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
-
+body {
+    background-image:url(../xp.jpg);
+    background-size:100%,100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 @media (min-width: 768px) {
   html {
     font-size: 16px;
   }
 }
+p {
+    font-size:20px;
+}
+
+h1 {
+    color:purple;
+}
+
+card-body, p {
+    color:red;
+}
+card-body, h5 {
+    color:green;
+}
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
+    
+
 }
 
 body {
