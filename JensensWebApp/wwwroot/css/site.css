@@ -77,10 +77,11 @@ body {
 
 .dark-mode .nav-link.text-dark{
     color: white !important;
-
+}
 .fixed-button {
     border: none;
 }
 
 .fixed-button:hover {
     background-color: grey;
+}
