@@ -2,16 +2,16 @@ html {
     font-size: 14px;
 }
 body {
-    background-image:url(../xp.jpg);
     background-size:100%,100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
+    html {
+      font-size: 16px;
+    }
   }
-}
+  
 p {
     font-size:20px;
 }
@@ -30,10 +30,30 @@ card-body, h5 {
 html {
     position: relative;
     min-height: 100%;
-    
-
 }
 
 body {
   margin-bottom: 60px;
+}
+
+.dark-mode {
+    background-color: black;
+}
+
+.articles-container {
+    background-color: white;
+}
+
+.card {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode .articles-container {
+    background-color: #343a40;
+}
+
+.dark-mode .card {
+    background-color: #495057;
+    color: white;
 }
