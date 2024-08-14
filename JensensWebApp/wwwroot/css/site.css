@@ -65,10 +65,22 @@ body {
     z-index: 1000;
 }
 
+
+.dark-mode .navbar.navbar-expand-sm {
+    background-color: black !important;
+    color: white !important;
+}
+
+.dark-mode .navbar-brand {
+    color: white !important;
+}
+
+.dark-mode .nav-link.text-dark{
+    color: white !important;
+
 .fixed-button {
     border: none;
 }
 
 .fixed-button:hover {
     background-color: grey;
-}
