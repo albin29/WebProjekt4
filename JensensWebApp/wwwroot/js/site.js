@@ -3,6 +3,16 @@
 
 // Write your JavaScript code.
 
+let visitCount = localStorage.getItem('visitCount');
+visitCount = visitCount ? Number(visitCount) : 0;
+
+window.onload = function() {
+    visitCount += 1;
+            
+    document.getElementById('visitCountDisplay').innerText = visitCount;
+    localStorage.setItem('visitCount', visitCount);
+}
+
 window.onload = function() {
     if (localStorage.getItem('dark-mode') === 'enabled') {
         document.body.classList.add('dark-mode');
